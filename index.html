@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <!-- Servidores de Fontes do Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ 
+  <!-- Fonte do Google - Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta naem="description" content="Projeto Portfólio do Thiago, desenvolvedor web fullstack.">
+  <meta name="author" content="Thiago Tasseli">
+  <meta name="keywords" content="portfólio, desenvolvedor, web, fullstack, Thiago Tasseli, HTML, CSS, JavaScript">
+  <link rel="icon" href="https://ik.imagekit.io/dmzx7is6a/portfolio-html-css/image.png?updatedAt=1751740317060" />
+
+  <!-- Link para o arquivo CSS -->
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+
+  <title>Portfolio do Thiago Tasseli</title>
+</head>
+<body>
+  <!-- Cabeçalho a página -->
+  <header class="flex menu_container">
+        <!-- Título do cabeçalho -->
+        <div id="header_content" class="menu_content">
+          <div id="titulo">
+              <a href="#">Thiago Tasseli</a>
+          </div>
+        </div>
+
+        <!-- Menu -->
+        <div id="menu" class="flex">
+            <ul class="flex menu_list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+            </ul>
+        </div>
+  </header>
+
+  <!-- Seção principal da página -->
+   <main>
+
+        <!-- Seção home -->
+        <section id="home" class="flex home_container">
+          <article id="home_texto" class="flex home_content">
+            <h4>Bem-vindo ao meu portfólio</h4>
+            <h1>Transformando ideias em tecnologia</h1>
+            <p>Sou um desenvolvedor apaixonado por criar experiências digitais que facilitam o dia a dia das pessoas. Aqui você pode conhecer meus projetos, habilidades e a jornada que me trouxe até aqui.</p>
+            <a class="botao" href="https://github.com/tasselii" target="_blank">Conheça meus projetos</a>
+          </article>
+          <article id="home_imagem" class="flex home_content">
+            <img src="https://ik.imagekit.io/dmzx7is6a/portfolio-html-css/tech%20company-amico.png?updatedAt=1751740465048" alt="Ilustração de tecnologia" />
+          </article>
+        </section>
+
+         <!-- Seção Sobre -->
+        <section id="about" class="flex sobre_container">
+
+            <!-- Imagem da seção Sobre -->
+            <img src="https://ik.imagekit.io/dmzx7is6a/portfolio-html-css/Imagem%20do%20WhatsApp%20de%202025-07-05%20%C3%A0(s)%2016.05.44_69dd0aee.jpg?updatedAt=1751742353758" alt="Foto do Pessoal" />
+
+            <!-- Texto da seção Sobre -->
+            <article id="about_texto">
+                <h1>Sobre mim</h1>
+                <p>Iniciei minha jornada técnica instalando, configurando e padronizando sistemas de redes, onde desenvolvi senso de organização, atenção aos detalhes e resolução de problemas. Em seguida, empreendi com um delivery de açaí, atuando em todas as frentes — do atendimento à logística — e implementando controles de dados para otimizar a operação. Essa vivência me aproximou da tecnologia e despertou meu interesse por soluções automatizadas.</p>
+
+                <p>Hoje, mergulhado em um bocam intensivo de Java Fullstack, aplico esse repertório no desenvolvimento de APIs RESTful, CRUDs, e na prática de POO com Java e Spring Boot. Utilizo MySQL, Git/GitHub, e ferramentas como Postman/Insomnia para testes, enquanto participo de projetos ágeis que simulam o ambiente real de desenvolvimento. Unindo teoria e prática, sigo evoluindo como desenvolvedor com foco em eficiência e entrega de valor.</p>
+
+                <div id="about_github" class="flex sobre_github">
+                    <a href="https://github.com/tasselii" target="_blank" class="botao">Github</a>
+                    <a href="https://www.linkedin.com/in/thiagotasseli-tech/" target="_blank" class="botao">Linkedin</a>
+                </div>
+            </article>
+
+        </section>
+
+        
+        <!-- Seção Projetos -->
+        <section id="projetos" class="flex projetos"></section>
+
+          <!-- Titulo Projetos  -->
+          <h1>Projetos</h1>
+
+          <!-- Texto da seção Sobre -->
+          <article id="projetos_container">
+
+          <!-- Projeto 1 -->
+          <div class="card_projeto">
+            <img src="https://ik.imagekit.io/dmzx7is6a/portfolio-html-css/image.png?updatedAt=1751746489769" alt="Imagem do projeto Blog Pessoal" class="card_img" />
+            <div class="card_conteudo">
+              <h3 class="card_titulo">Blog Pessoal</h3>
+              <p class="card_descricao">Aplicação full stack de blog desenvolvida com React, TypeScript e TailwindCSS no front-end, e Java com Spring Boot no back-end. Utiliza PostgreSQL para persistência de dados e Docker para conteinerização. Permite cadastro de usuários, temas e postagens, com autenticação e layout responsivo.</p>
+              <div class="card_botoes">
+                <a href="https://github.com/tasselii/blogpessoal" target="_blank" class="botao_card">Código</a>
+                <a href="https://pensamento-compilado.netlify.app/" target="_blank" class="botao_card">Site</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projeto 2 -->
+          <div class="card_projeto">
+            <img src="https://ik.imagekit.io/dmzx7is6a/portfolio-html-css/image.png?updatedAt=1751746685611" alt="Imagem do projeto ToDo List" class="card_img" />
+            <div class="card_conteudo">
+              <h3 class="card_titulo">GitHub Finder</h3>
+              <p class="card_descricao">Aplicação front-end que utiliza JavaScript para consumir a API do GitHub e exibir perfis com informações dinâmicas. Criada com HTML, CSS e JavaScript puro como parte dos desafios práticos do bootcamp Java Full Stack Developer da Generation Brasil.</p>
+              <div class="card_botoes" style="margin-top: 3rem;">
+                <a href="https://github.com/tasselii/github-finder" target="_blank" class="botao_card">Código</a>
+                <a href="https://octofinder.netlify.app/" target="_blank" class="botao_card">Site</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projeto 3 -->
+          <div class="card_projeto">
+            <img src="https://ik.imagekit.io/dmzx7is6a/portfolio-html-css/image.png?updatedAt=1751747182646" />
+            <div class="card_conteudo">
+              <h3 class="card_titulo">Meu Portfólio</h3>
+              <p class="card_descricao">Aplicação estática construída com HTML, CSS e JavaScript puro, com foco em responsividade, organização semântica e interatividade. Ideal para demonstrar minhas habilidades em front-end.</p>
+              <div class="card_botoes" style="margin-top: 4.5rem;">
+                <a href="https://github.com/tasselii/portfolio_fundweb" target="_blank" class="botao_card">Código</a>
+                <a href="https://tasselii.github.io/portfolio_fundweb/index.html" target="_blank" class="botao_card">Site</a>
+              </div>
+            </div>
+          </div>
+
+        </article>
+      </section>
+      
+   </main>
+
+   <!-- Rodapé da página -->
+    <footer>
+        © 2025 Thiago Tasseli. Todos os direitos reservados.
+    </footer>
+</body>
+</html
