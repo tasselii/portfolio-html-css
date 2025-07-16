@@ -2,13 +2,18 @@
 
 Este repositório contém meu portfólio desenvolvido como desafio pessoal utilizando apenas **HTML** e **CSS** puros. O objetivo foi colocar em prática meus conhecimentos em estrutura semântica, responsividade e design visual, sem o uso de frameworks ou JavaScript.
 
+## 🚀 Acesse o site
+
+Você pode acessar o portfólio online através do link abaixo:  
+🔗 [portfolio](https://tasselii.github.io/portfolio-html-css)
 
 ## ✨ Funcionalidades
 
-- Estrutura semântica com HTML5
-- Layout responsivo para diferentes dispositivos
-- Seções organizadas: Sobre, Projetos, Contato e mais
+- Estrutura semântica com HTML5  
+- Layout responsivo para diferentes dispositivos  
+- Seções organizadas: Sobre, Projetos, Contato e mais  
 - Estilização moderna com CSS puro
+
 
 ## 📸 Prévia
 
@@ -19,7 +24,7 @@ Este repositório contém meu portfólio desenvolvido como desafio pessoal utili
 
 ## 🛠️ Tecnologias Utilizadas
 
-- HTML5
+- HTML5  
 - CSS3
 
 
@@ -27,4 +32,4 @@ Este repositório contém meu portfólio desenvolvido como desafio pessoal utili
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/tasselii/https://github.com/tasselii/portfolio-html-css.git
+   git clone https://github.com/tasselii/portfolio-html-css.git
